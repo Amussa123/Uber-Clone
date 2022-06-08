@@ -4,7 +4,7 @@ import tw from "tailwind-react-native-classnames";
 import NavFavourites from "../components/NavFavourites";
 import { GooglePlacesAutocomplete } from "react-native-google-places-autocomplete";
 import { useDispatch } from "react-redux";
-import { setDestination, setOrigin } from "../slices/navSlice";
+import { setDestination, setOrigin } from "../slices/navSlices";
 import { GOOGLE_MAPS_APIKEY } from "@env";
 import NavOptions from "../components/NavOptions";
 
