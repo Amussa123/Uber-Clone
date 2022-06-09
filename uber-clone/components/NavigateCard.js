@@ -13,7 +13,7 @@ import tw from "tailwind-react-native-classnames";
 import { useDispatch } from "react-redux";
 import { useNavigation } from "@react-navigation/native";
 import NavFavourites from "./NavFavourites";
-import { GOOGLE_MAPS_APIKEY } from "@env";
+
 
 const NavigateCard = () => {
   const dispatch = useDispatch();

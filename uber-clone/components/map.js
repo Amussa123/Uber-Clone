@@ -9,7 +9,6 @@ import {
   setTravelTimeInformation,
 } from "../slices/navSlices";
 import tw from "tailwind-react-native-classnames";
-import { GOOGLE_MAPS_APIKEY } from "@env";
 
 const Map = () => {
   const mapRef = useRef(null);
